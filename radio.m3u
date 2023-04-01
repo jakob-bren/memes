@@ -1,0 +1,59 @@
+#EXTM3U
+
+# ======================
+# TuneIn Radio Playlist
+# ======================
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s9123q.png" tvg-id="103.2 Dublin City FM" group-title="MyRadio" radio="true",103.2 Dublin City FM
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://31.14.40.241:18091/dcfm -vn -acodec libmp3lame -metadata service_provider=103.2DUBLINCITYFM -metadata service_name=103.2DUBLINCITYFM -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s229919/images/logoq.png?t=1" tvg-id="87.6 Chill FM" group-title="MyRadio" radio="true",87.6 Chill FM
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://s4.myradiostream.com:4062/ -vn -acodec libmp3lame -metadata service_provider=87.6CHILLFM -metadata service_name=87.6CHILLFM -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s107786/images/logoq.png" tvg-id="C103 North" group-title="MyRadio" radio="true",C103 North
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://wg.cdn.tibus.net/C103 -vn -acodec libmp3lame -metadata service_provider=C103NORTH102.6 -metadata service_name=C103NORTH102.6 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s224391/images/logoq.png?t=152596" tvg-id="CharityRadio" group-title="MyRadio" radio="true",CharityRadio
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://37.187.79.93:8640/ -vn -acodec libmp3lame -metadata service_provider=CHARITYRADIO88.1 -metadata service_name=CHARITYRADIO88.1 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s67849q.png" tvg-id="Claremorris Community Radio" group-title="MyRadio" radio="true",Claremorris Community Radio
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://majestic.wavestreamer.com:7983 -vn -acodec libmp3lame -metadata service_provider=CLAREMORRISCOMMUNITYRADIO94.6 -metadata service_name=CLAREMORRISCOMMUNITYRADIO94.6 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s1327q.png" tvg-id="Connemara Community Radio" group-title="MyRadio" radio="true",Connemara Community Radio
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://78.129.196.32:21000/relay -vn -acodec libmp3lame -metadata service_provider=CONNEMARACOMMUNITYRADIO87.8 -metadata service_name=CONNEMARACOMMUNITYRADIO87.8 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s165077q.png" tvg-id="Cork City Community Radio" group-title="MyRadio" radio="true",Cork City Community Radio
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://stream.cr.ie:8014 -vn -acodec libmp3lame -metadata service_provider=CORKCITYCOMMUNITYRADIO100.5 -metadata service_name=CORKCITYCOMMUNITYRADIO100.5 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s230824q.png" tvg-id="CUH fm Hospital Radio" group-title="MyRadio" radio="true",CUH fm Hospital Radio
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://148.163.81.10:8010/ -vn -acodec libmp3lame -metadata service_provider=CUHFMHOSPITALRADIO102.0 -metadata service_name=CUHFMHOSPITALRADIO102.0 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s161453/images/logoq.jpg?t=152467" tvg-id="DDM Radio Ireland" group-title="MyRadio" radio="true",DDM Radio Ireland
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://109.255.44.249:8000/ -vn -acodec libmp3lame -metadata service_provider=DDMRADIOIRELAND99.4 -metadata service_name=DDMRADIOIRELAND99.4 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s135815/images/logoq.jpg?t=152570" tvg-id="Dublin South FM" group-title="MyRadio" radio="true",Dublin South FM
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://pollux.shoutca.st:8853/live -vn -acodec libmp3lame -metadata service_provider=DUBLINSOUTHFM93.9 -metadata service_name=DUBLINSOUTHFM93.9 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s46965/images/logoq.jpg?t=636237" tvg-id="Dundalk FM" group-title="MyRadio" radio="true",Dundalk FM
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://80.249.249.245:8000 -vn -acodec libmp3lame -metadata service_provider=DUNDALKFM100.0 -metadata service_name=DUNDALKFM100.0 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s6008q.png" tvg-id="Kiss FM Ireland" group-title="MyRadio" radio="true",Kiss FM Ireland
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://agnes.torontocast.com:8124/stream -vn -acodec libmp3lame -metadata service_provider=KISSFMIRELAND102.7 -metadata service_name=KISSFMIRELAND102.7 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s46967/images/logoq.jpg?t=154227" tvg-id="NearFM" group-title="MyRadio" radio="true",NearFM
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://proxima.shoutca.st:8114/ -vn -acodec libmp3lame -metadata service_provider=NEARFM90.3 -metadata service_name=NEARFM90.3 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s15123q.png" tvg-id="News Talk" group-title="MyRadio" radio="true",News Talk
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://stream.audioxi.com/NT -vn -acodec libmp3lame -metadata service_provider=NEWSTALK106.0 -metadata service_name=NEWSTALK106.0 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s266116q.png" tvg-id="Non-Stop 90's" group-title="MyRadio" radio="true",Non-Stop 90's
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://1071.bitcast.eu:8000/audio -vn -acodec libmp3lame -metadata service_provider=NON-STOP90'S107.1 -metadata service_name=NON-STOP90'S107.1 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s15124q.png" tvg-id="Raidió na Life 106.4FM" group-title="MyRadio" radio="true",Raidió na Life 106.4FM
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://beryl.streamguys.com:5010/live -vn -acodec libmp3lame -metadata service_provider=RAIDIÓNALIFE106.4FM -metadata service_name=RAIDIÓNALIFE106.4FM -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s47835q.png" tvg-id="The Zone" group-title="MyRadio" radio="true",The Zone
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://uk1.internet-radio.com:8355/ -vn -acodec libmp3lame -metadata service_provider=THEZONE102.5 -metadata service_name=THEZONE102.5 -f mpegts -mpegts_service_type digital_radio pipe:1
+
+#EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s15067q.png" tvg-id="UCC 98.3" group-title="MyRadio" radio="true",UCC 98.3
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://143.239.169.110:8000/listen -vn -acodec libmp3lame -metadata service_provider=UCC98.3 -metadata service_name=UCC98.3 -f mpegts -mpegts_service_type digital_radio pipe:1
