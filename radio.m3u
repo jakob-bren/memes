@@ -14,7 +14,7 @@ pipe:///usr/bin/ffmpeg -loglevel fatal -i http://s4.myradiostream.com:4062/ -vn 
 pipe:///usr/bin/ffmpeg -loglevel fatal -i http://wg.cdn.tibus.net/C103 -vn -acodec libmp3lame -metadata service_provider=C103NORTH102.6 -metadata service_name=C103NORTH102.6 -f mpegts -mpegts_service_type digital_radio pipe:1
 
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s224391/images/logoq.png?t=152596" tvg-id="CharityRadio" group-title="MyRadio" radio="true",CharityRadio
-pipe:///usr/bin/ffmpeg -loglevel fatal -i http://37.187.79.93:8640/ -vn -acodec libmp3lame -metadata service_provider=CHARITYRADIO88.1 -metadata service_name=CHARITYRADIO88.1 -f mpegts -mpegts_service_type digital_radio pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://icecast1.rte.ie/2fm -vn -acodec libmp3lame -metadata service_provider=CHARITYRADIO88.1 -metadata service_name=CHARITYRADIO88.1 -f mpegts -mpegts_service_type digital_radio pipe:1
 
 #EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s67849q.png" tvg-id="Claremorris Community Radio" group-title="MyRadio" radio="true",Claremorris Community Radio
 pipe:///usr/bin/ffmpeg -loglevel fatal -i http://majestic.wavestreamer.com:7983 -vn -acodec libmp3lame -metadata service_provider=CLAREMORRISCOMMUNITYRADIO94.6 -metadata service_name=CLAREMORRISCOMMUNITYRADIO94.6 -f mpegts -mpegts_service_type digital_radio pipe:1
